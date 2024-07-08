@@ -18,3 +18,7 @@ repos:
     hooks:
       - id: numpydoc-validation
         exclude: (tests|docs)/.*
+  - repo: https://github.com/AndreasMilants/pre-commit-workshop
+    rev: 4e32efe73e086cfcfd326570377a6c8bd35a58e0
+    hooks:
+      - id: no-print-statements

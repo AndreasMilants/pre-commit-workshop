@@ -16,7 +16,7 @@ def perform_check(filenames: Sequence[str]) -> bool:
                             "Print statement found in line %s of file %s. "
                             "Try using a logger instead, "
                             "or ignore this warning by including `ignore-print` on this line.",
-                            i,
+                            i + 1,
                             filename,
                         )
                         errors = True

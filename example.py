@@ -11,3 +11,6 @@ def my_function(a):
         Any input.
     """
     pass
+
+
+print("This is a print statement.")
