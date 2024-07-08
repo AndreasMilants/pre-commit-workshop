@@ -1,0 +1,6 @@
+- id: no-print-statements
+  name: no-print-statements
+  description: This hook prevents users from using print statements.
+  entry: no-print-statements
+  language: python
+  types: [python]
