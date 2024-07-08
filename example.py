@@ -1,3 +1,13 @@
+"""Example module."""
+
+
 def my_function(a):
-    """My function."""
+    """
+    Do nothing.
+
+    Parameters
+    ----------
+    a : int
+        Any input.
+    """
     pass
